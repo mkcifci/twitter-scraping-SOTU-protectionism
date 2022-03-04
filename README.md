@@ -37,7 +37,7 @@ get_token()
 ```R
 stream_tweets(
   # location = lookup_coords("usa"),
-  '"buy american", "made in america"',
+  "buy american, made in america",
   timeout = 60 * 60 * 2 , 
   file_name = "tweets_from_sotu.json",
   parse = FALSE, token = token,
